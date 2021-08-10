@@ -1,0 +1,188 @@
+<html>	
+<head>
+	<meta charset="utf-8">
+	<title>PDF Result Template</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			font-size: 14px;
+		}
+		body {
+			font-family: sans-serif;
+		}
+		.contenedor {
+			width: 600px;
+			margin: 0 auto;
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+		td {
+			border: 1px solid #000;
+			text-align: center;
+			padding: 5px;
+		}
+
+		.tr_border_none td {
+			border: 0;
+			width: 12.5%;
+			padding: 0;
+		}
+
+		.titulo {
+			font-size: 16px;
+    		text-align: center;
+		}
+		.subtitulo {
+			font-size: 16px;
+    		text-align: center;
+			font-weight: normal;
+		}
+		.name_company {
+			text-align: center;
+			font-size: 12px;
+		}
+
+
+		.mt{
+			margin-top: 20px;
+		}
+		.align-left {
+			text-align: left;
+			padding-left: 5px;
+		}
+		.align-right {
+			text-align: right;
+		}
+		.align-center{
+			text-align: center;
+		}
+		.logo{
+			width: 500px;
+		}
+		.firmas {
+			padding: 20px;
+		}
+		.comments{
+			
+			border: 1px solid black;
+			padding: 10px;
+		}
+		.teacher{
+			padding-top: 20px;
+			margin-bottom: 40px
+		}
+		.firma {
+			text-align: right;
+			font-weight: bold;
+		}
+
+		.size_small {
+			font-size: 12px;
+		}
+	</style>	
+</head>
+<body>
+	<div class="contenedor">
+		<div class="align-center">
+			<img class="logo" src="./logo.png">
+		</div>
+
+		<h2 class="titulo">SECOND TERM MARKS</h2>
+		<h2 class="subtitulo">(NOTAS SEGUNDO TRIMESTRE)</h2>
+		<h3 class="name_company">I LOVE ENGLISH LANGUAGE ACADEMY</h3>
+
+		<br>
+
+		<table>
+			<tr class="tr_border_none">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="1"><b> NAME </b></td>
+				<td colspan="3">CHRISTOPHER ARTHUR RIGORES ATENCIO</td>
+				<td colspan="1"><b> LEVEL </b></td>
+				<td colspan="3">${datos.level}</td>
+			</tr>
+		</table>
+
+		<br>
+		<br>
+
+		<table>
+			<tr class="tr_border_none">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="2"> <b> SKILLS </b><br> (Destrezas) </td>
+				<td colspan="2"> <b> GLOBAL MARK </b><br> (nota global en lengua inglesa)</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="align-left"> <b> LISTENING </b> (destreza auditiva) </td>
+				<td colspan="2"> <b>${datos.listening}</b></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="align-left"> <b> READING </b> (destreza lectora) </td>
+				<td colspan="2"> <b>${datos.reading}</b></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="align-left"> <b> WRITING </b> (destreza escrita) </td>
+				<td colspan="2"> <b>${datos.writing}</b></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="align-left"> <b> SPEAKING </b> (destreza oral) </td>
+				<td colspan="2"> <b>${datos.speaking}</b></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="align-left"> <b> BEHAVIOUR </b> (comportamiento) </td>
+				<td colspan="2"> <b>${datos.behaviour}</b></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="align-left"> <b> ATTITUDE </b> (actitud) </td>
+				<td colspan="2"> <b>${datos.attitude}</b></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="align-left"> <b> ABSENCES </b> (faltas asistencia) </td>
+				<td colspan="2"> <b>${datos.absences}</b></td>
+			</tr>
+		</table>
+
+		<br><br>
+			<span> <b> Comments: </b> </span>	
+		<br><br>
+
+		<div class="comments">
+			<p>${datos.comments}</p>
+			<br>
+			<p class="size_small">OS INFORMAMOS QUE YA PODÉIS SOLICITAR TUTORÍA CON VUESTROS PROFESORES EN NUESTRA WEB: WWW.ILOVEENGLISH.ES</p>
+		</div>
+		
+		<div class="teacher">
+			<div style="float: left;">
+				<b> ${"usuario.nombre"} </b>
+			</div>
+			<div style="float: right;">
+				<b>I LOVE ENGLISH LANGUAGE ACADEMY</b>	
+			</div>
+		</div>
+
+
+		<p>D. .......................... padre, madre o tutor del alumno .............. firma este resguardo para dejar constancia que ha leído el boletín informativo de notas.</p>
+		<br>
+		<p class="firma">FIRMA:</p>
+	</div>
+</body>
+</html>
