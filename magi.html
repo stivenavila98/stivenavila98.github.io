@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Mas Informacion</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<!-- Favicons -->
+	<link rel="icon" href="img/SA-Logo.ico"/>
+
+	<!-- Files CSS -->
+	<link href="lib/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<style>
+		img {
+			width: 100%;
+		}
+		.titulo {
+			text-align: center;
+			margin: 20px 0;
+		}
+		@media (max-width: 576px) {
+			.titulo {
+				font-size: 1.2em;
+			}
+		}
+		.carousel-indicators {
+			z-index: 3;
+		}
+	</style>
+
+</head>
+
+<body>
+	<!-- Preloader -->
+	<div id="preloader"><img src="img/loader.svg" alt="loader"></div>
+
+	
+	<div class="container">
+		<h1 class="titulo">Modulo Administrativo De Gestion De Interconexiones</h1>
+
+		<div class="row">
+			<div class="col-12 mt-3">
+				<div class="carousel slide" id="principal-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#principal-carousel" data-slid-to="0" class="active"></li>
+						<li data-target="#principal-carousel" data-slid-to="1"></li>
+						<li data-target="#principal-carousel" data-slid-to="2"></li>
+						<li data-target="#principal-carousel" data-slid-to="3"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/proyectos/m1.jpg" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="img/proyectos/m2.jpg" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="img/proyectos/m3.jpg" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="img/proyectos/m4.jpg" alt="">
+						</div>
+					</div>
+
+					<a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+
+					<a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span>
+					</a>
+				</div>
+				<p>Creada con React y NodeJS</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">      
+				<h1 class="titulo">Descripcion</h1>
+				<p>Esta es una aplicación web la cual desarrolle junto a un equipo  para una Universidad de Maracaibo Venezuela llamada URBE.</p>
+
+				<p>La aplicación fue creada con la función de controlar de manera remota un gran número de PCs de forma simultánea, entre las principales opciones que posee está la del encendido de un grupo seleccionado de PCs como también incluye las opciones de reiniciar y apagar.</p>
+
+				<p>Posee un sistema que le permite mostrar diferentes opciones dependiendo de los privilegios que posea el usuario con el ingresó a la aplicación, si es un usuario estándar el sistema no permite controlar PCs que estén fuera del área en la que se está ejecutando, mientras que un usuario con todos los privilegios puede pasar por encima de esos y otros límites.</p>
+
+				<p>Posee un panel el cual permite colocar a las PCs seleccionadas en un estado de reservación.</p>
+
+				<p>¿Que es el estado de reservación?</p>
+				<p>Es el modo en el cual las PCs tienen un límite de tiempo para su uso (Ideal para Universidades y Liceos en los que hay un gran número de estudiantes y todos quieren hacer uso de una PC). Este sistema permite hacer una reservación con simplemente la cedula de identidad y al culminar el tiempo de uso dicha PC se pone en modo disponible para que un estudiante en espera pueda hacer uso de la PC.</p>
+
+				<p>El sistema permite enviar mensajes en forma de alerta a la PC seleccionada (Excelente para esos momentos en los que quieres informarle al estudiante que baje el tono de voz ya que pude desconcentrar a otros que estén haciendo uso de las PCs).</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Files JavaScript -->
+	<script src="lib/js/jquery-3.4.1.min.js"></script>
+	<script src="lib/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

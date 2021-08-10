@@ -1,0 +1,444 @@
+/*--------------------------------------------------------------
+	Styles Tree
+----------------------------------------------------------------
+# Styles Generales
+# Preloader
+# Header
+# Navbar
+	## Mobile Menu
+# About Us
+# Parallax 1
+# Services
+	## Promotions
+# Parallax 2
+# Contact Us
+# Footer
+--------------------------------------------------------------*/
+
+
+/*==================/  # Styles Generales  /==================*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*==================/  # Preloader  /==================*/
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	background: #607D8B;
+	align-content: center;
+	justify-content: center;
+	z-index: 3;
+}
+#preloader > img {
+	width: 70px;
+}
+
+
+/*==================/  # Header  /==================*/
+.header {
+	position: relative;
+	height: 100vh;
+	color: #fff;
+	overflow: hidden;
+}
+.hero_video {
+	min-width: 100vw;
+	min-height: 100vh;
+}
+@media (max-width: 767px) {
+	.hero_video {
+		max-height: 150vh;
+		max-width: 300vh;
+	}
+}
+
+.main_info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+}
+.main_info h1 {
+	margin-top: 40vh;
+	text-shadow: 0px 8px 20px black;
+}
+.header a {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	padding: 10px;
+	color: #fff;
+	font-size: 40px;
+	transform: translate(-50%, 0);
+	line-height: 0;
+}
+
+
+/*==================/  # Navbar  /==================*/
+nav#navbar {
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+#navbar.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 70px;
+}
+.main_nav {
+	width: 100%;
+	height: 70px;
+	padding: 5px 20px;
+	background: #607D8B;
+	text-align: right;
+	box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.logo{
+	height: 60px;
+	color: white;
+	float: left;
+}
+.main_nav li {
+	display: inline-block;
+	margin-right: 5px;
+	list-style: none;
+}
+.main_nav ul {
+	margin: 0;
+}
+.main_nav li a {
+	display: block;
+	padding: 20px 10px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/*======/  ## Mobile Menu  /======*/
+ul#mobile_menu {
+	display: none;
+	position: absolute;
+	width: 100%;
+	padding: 20px;
+	padding-top: 10px;
+	background: #607D8B;
+	text-align: left;
+	list-style: none;
+	z-index: 2;
+}
+#mobile_menu li {
+	padding-top: 10px;
+	padding-left: 15px;
+}
+#mobile_menu li a {
+	color: #fff;
+	font-weight: bold;
+}
+#mobile_menu li a:hover {
+	text-decoration: none;
+}
+#btn_mobile {
+	position: relative;
+	height: 35px;
+	width: 35px;
+	margin-top: 13px;
+	float: right;
+	overflow: hidden;
+	transform: scale(1.5);
+}
+#btn_mobile span {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	right: 5px;
+	height: 3px;
+	width: 24px;
+	margin-top: -2px;
+	background: #fff;
+}
+#btn_mobile span:before {
+	top: -8px;
+}
+#btn_mobile span:after {
+	top: 8px;
+}
+#btn_mobile span:before, #btn_mobile span:after {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	height: 3px;
+	width: 24px;
+	background: #fff;
+	content: '';
+	/*
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	*/
+	-webkit-transform-origin: 0% 50%;
+	-moz-transform-origin: 0% 50%;
+	-ms-transform-origin: 0% 50%;
+	-o-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}
+#btn_mobile.nav-is-visible span {
+	background: transparent;
+}
+#btn_mobile.nav-is-visible span:before {
+	-webkit-transform: translateX(4px) translateY(-1px) rotate(45deg);
+	-moz-transform: translateX(4px) translateY(-1px) rotate(45deg);
+	-ms-transform: translateX(4px) translateY(-1px) rotate(45deg);
+	-o-transform: translateX(4px) translateY(-1px) rotate(45deg);
+	transform: translateX(4px) translateY(-1px) rotate(45deg);
+}
+#btn_mobile.nav-is-visible span:after {
+	-webkit-transform: translateX(4px) translateY(0px) rotate(-45deg);
+	-moz-transform: translateX(4px) translateY(0px) rotate(-45deg);
+	-ms-transform: translateX(4px) translateY(0px) rotate(-45deg);
+	-o-transform: translateX(4px) translateY(0px) rotate(-45deg);
+	transform: translateX(4px) translateY(0px) rotate(-45deg);
+}
+
+
+/*==================/  # About Us  /==================*/
+section.about_us {
+	padding: 40px 0;
+	overflow: hidden;
+}
+section.about_us.sticky {
+	padding-top: 110px;
+}
+.about_us .content {
+	margin: 0 auto;
+}
+.about_us .info {
+	padding: 30px;
+	background: #d9f5f9;
+	border-radius: 30px 0;
+	box-shadow: 2px 3px 6px 2px #00000059;
+}
+.about_us .info_style2 {
+	border-radius: 0 30px 30px 0;
+}
+.about_us .info_style3 {
+	border-radius: 0 30px;
+}
+
+
+/*==================/  # Parallax 1  /==================*/
+.parallax1 {
+	display: flex;
+	height: 300px;
+	padding: 40px 20px;
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('../Img/parallax1.jpg') left center / cover fixed;
+	color: #fff;
+	align-items: center;
+	text-align: center;
+}
+
+
+/*==================/  # Services  /==================*/
+section.services {
+	padding-top: 60px;
+	overflow: hidden;
+}
+.services .row.ofrecemos {
+	display: flex;
+	margin-bottom: 100px;
+	align-items: center;
+}
+#carousel_service {
+	border-radius: 30px;
+	overflow: hidden;
+}
+#carousel_service .carousel-item {
+	height: 400px;
+	width: 100%;
+}
+@media (max-width: 767px) {
+	#carousel_service .carousel-item {
+		height: 250px;
+	}
+}
+
+/*======/  ## Promotions  /======*/
+.promotions {
+	margin-top: 50px;
+	padding: 30px 15px;
+	background: #f7f7f7;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+}
+.promotions .package {
+	padding: 20px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px 1px #00000050;
+}
+.package > h3 {
+	font-size: 20px;
+}
+.package > span {
+	font-size: 25px;
+}
+.package > p > span {
+	display: inline-block;
+	width: 40px;
+	color: #009688;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+/*==================/  # Parallax 2  /==================*/
+.parallax2 {
+	padding: 80px 0;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../Img/parallax2.jpg') center / cover fixed;
+	color: #fff;
+	overflow: hidden;
+}
+.parallax2 .row {
+	align-items: center;
+}
+.parallax2 img {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+
+/*==================/  # Contact Us  /==================*/
+section.contact_us {
+	padding: 60px 0;
+	background: #f7f7f7;
+}
+.info_contact {
+	display: block;
+	width: 310px;
+	margin: 0 auto;
+	padding: 20px 40px;
+	background: #7ca2b5;
+	color: #fff;
+	border-radius: 20px 0;
+}
+.info_contact > p > span {
+	display: inline-block;
+	width: 30px;
+	margin-right: 10px;
+	font-size: 25px;
+	text-align: center;
+}
+.socials {
+	display: block;
+	width: 310px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+.socials ul {
+	list-style: none;
+}
+.socials ul li {
+	display: inline-block;
+}
+.socials ul li a {
+	display: flex;
+	width: 50px;
+	height: 50px;
+	background: #7ca2b5;
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+.socials ul li a span {
+	transition: all ease 1s;
+	transform: rotate(0deg);
+
+}
+.socials ul li a:hover span {
+	transform: rotate(360deg);
+	transition: all ease .3s;
+}
+.socials a.facebook:hover {
+	background: #3B5998;
+}
+.socials a.instagram:hover {
+	background: #E91E63;
+}
+.socials a.twitter:hover {
+	background: #33ccff;
+}
+.socials a.pinterest:hover {
+	background: #c71d1d;
+}
+
+.contact_form input,
+.contact_form textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	color: #495057;
+	border: 1px solid #ced4da;
+	border: 2px solid #009688;
+	border-radius: 10px;
+}
+.contact_form textarea {
+	max-height: 150px;
+	min-height: 150px;
+}
+.contact_form input:focus,
+.contact_form textarea:focus,
+.contact_form button {
+	outline: none;
+}
+.contact_form button {
+	width: 50%;
+	padding: 5px;
+	background: #009688;
+	color: white;
+	border: 2px solid #009688;
+	border-radius: 10px;
+	transition: all ease .3s;
+}
+.contact_form button:hover {
+	background: #28a59a;
+	border: 2px solid #28a59a;
+}
+
+
+/*==================/  # Footer  /==================*/
+footer {
+	padding: 30px;
+	background: #607D8B;
+	color: #fff;
+}
+footer p.copyright {
+	margin: 0;
+	text-align: center;
+}
+footer span {
+	display: inline-block;
+}
