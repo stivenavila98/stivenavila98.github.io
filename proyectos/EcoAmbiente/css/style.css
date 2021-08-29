@@ -1,0 +1,291 @@
+/*--------------------------------------------------------------
+	Styles Tree
+----------------------------------------------------------------
+# Styles Generales
+# Preloader
+# Header
+	## Main Menu
+	## Mobile Menu
+	## Hero Content
+	## Header Frame
+# Section 1
+# Section 2
+# Footer
+--------------------------------------------------------------*/
+
+
+/*==================/  # Styles Generales  /==================*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*==================/  # Preloader  /==================*/
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	align-items: center;
+	justify-content: center;
+	background: #8BC34A;
+	z-index: 3;
+}
+#preloader > img {
+	width: 60px;
+}
+
+
+/*==================/  # Header  /==================*/
+header {
+	position: relative;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/header_1.jpg) center / cover;
+	overflow: hidden;
+}
+
+/*======/  ## Main Menu  /======*/
+.main_menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 30px;
+	color: #fff;
+	font-family: sans-serif;
+	z-index: 1;
+}
+.main_menu > .logo {
+	width: 100px;
+	float: left;
+}
+.main_menu > .logo > img {
+	width: 100%;
+	margin-left: -8px;
+}
+.main_menu > .nav {
+	float: right;
+}
+.main_menu li {
+	display: inline-block;
+	margin-right: 5px;
+	list-style: none;
+}
+.main_menu li a {
+	display:block;
+	padding: 15px 10px;
+	background: rgba(173, 207, 212, 0.3);
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	transform: rotate(-10deg);
+	border-radius: 15px;
+	transition: all ease .3s;
+}
+.main_menu li:nth-child(odd) a {
+	transform: rotate(10deg);
+}
+.main_menu li a:hover {
+	background: rgba(173, 207, 212, 0.6);
+	transform: rotate(0deg);
+}
+.btn_mobile_menu {
+	padding: 8px 0;
+	font-size: 30px;
+	cursor: pointer;
+	float: right;
+}
+
+/*======/  ## Mobile Menu  /======*/
+.mobile_menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 100vw;
+	height: 100vh;
+	z-index: 2;
+}
+.mobile_menu .background {
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: all ease .5s;
+}
+.mobile_menu .nav {
+	position: fixed;
+	top: 0;
+	left: -120%;
+	height: 100%;
+	width: 300px;
+	padding-top: 30px;
+	padding-left: 40px;
+	background: #607D8B;
+	transition: all ease .5s;
+}
+.mobile_menu .nav ul {
+	list-style: none;
+}
+.mobile_menu .nav ul li {
+	margin-bottom: 25px;
+}
+.mobile_menu .nav ul li a {
+	display: block;
+	padding: 15px 10px;
+	background: rgba(255, 255, 255, 0.2);
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 15px;
+}
+.mobile_menu .nav ul li:nth-child(odd) a {
+	transform: rotate(10deg);
+}
+.mobile_menu .nav ul li:nth-child(even) a {
+	transform: rotate(-10deg);
+}
+.mobile_menu .nav ul li:first-child a, .mobile_menu .nav ul li:last-child a {
+	transform: rotate(0deg);
+}
+
+/*======/  ## Hero Content  /======*/
+.hero_content {
+	display: flex;
+	height: 80vh;
+	width: 100vw;
+	padding: 0 30px;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+}
+.hero_content .main_title > h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	text-shadow: 0 3px 20px black;
+}
+
+/*======/  ## Header Frame  /======*/
+header .frame {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+}
+header .btn_down {
+	position: absolute;
+	bottom: 18px;
+	left: 50%;
+	display: inline-block;
+	transform: translateX(-50%);
+}
+header .btn_down img{
+	width: 80px;
+}
+header .btn_down > a {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	padding: 5px 10px;
+	color: #000;
+	transform: translateX(-50%);
+	font-size: 17px;
+}
+@media (max-width: 992px) {
+	header .frame {
+		height: 50px;
+	}
+	header .btn_down {
+		bottom: 8px;
+	}
+}
+
+
+/*==================/  # Section 1  /==================*/
+.section_1 {
+	padding: 80px 0;
+	overflow: hidden;
+}
+.section_1 .row {
+	justify-content: space-around;
+}
+.section_1 .row > div > img {
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+@media (max-width: 767px) {
+	.section_1 .row > div > img {
+		display: block;
+		max-width: 450px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+}
+.section_1 .row > div > p {
+	text-align: justify;
+}
+
+
+/*==================/  # Section 2  /==================*/
+.section_2 {
+	padding: 80px 0;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/parallax_1.jpg') center / cover fixed;
+	color: #fff;
+}
+.section_2 .row > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.section_2 .row > div > img{
+	border-radius: 10px;
+}
+
+
+/*==================/  # Footer  /==================*/
+footer {
+	background: #1a475d;
+	padding: 27px 0;
+	color: #fff;
+}
+footer .container {
+	max-width: 100%;
+	padding: 0 30px;
+}
+footer span {
+	font-weight: bold;
+}
+.copyright {
+	padding-top: 13px;
+	font-size: 14px;
+	text-align: left;
+}
+.redes_sociales {
+	font-size: 30px;
+	text-align: right;
+}
+.redes_sociales a svg {
+	color: white;
+	transition: all 0.5s;
+	transform: rotate(0deg);
+}
+.redes_sociales a:hover svg {
+	transform: rotate(360deg);
+}
+
+@media (max-width: 768px) {
+	.copyright {
+		text-align: center;
+	}
+	.redes_sociales {
+		text-align: center;
+	}
+}
