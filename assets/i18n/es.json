@@ -1,0 +1,126 @@
+{
+	"header": {
+		"work_position": "Desarrollador Web",
+		"about_me": "Hola, soy un programador especializado en el Desarrollo Web. En la creación y mantenimiento de sitios web y aplicaciones web de pequeña, mediana y gran escala, principalmente trabajo como desarrollador Front-End aunque de igual forma poseo los fundamentos necesarios para llevar a cabo el desarrollo de un proyecto de principio a fin empleando buenas prácticas de programación, dejando un código legible y escalable.",
+		"skills_title": "Habilidades"
+	},
+	"services": {
+		"services_title": "SERVICIOS",
+		"services_description": "Estos son algunos de los servicios que puedo ofrecerte",
+		"service_1": {
+			"title": "Desarrollo Web",
+			"description": "Creación y edición de sitios web y aplicaciones web."
+		},
+		"service_2": {
+			"title": "Optimización",
+			"description": "Reducción de los tiempos de carga (WPO), posicionamiento web (SEO) y optimización de código."
+		},
+		"service_3": {
+			"title": "Diseño Responsivo",
+			"description": "Diseño adaptable a cualquier dispositivo."
+		},
+		"service_4": {
+			"title": "Mantenimiento",
+			"description": "Actualización de librerías, complementos, módulos, copias de seguridad y reemplazo de código obsoleto."
+		},
+		"service_5": {
+			"title": "Seguridad",
+			"description": "Instalación de certificados SSL (HTTPS), validaciones de datos y protección de datos sensibles mediante el uso de Token."
+		},
+		"service_6": {
+			"title": "Personalización",
+			"description": "Diseños adaptados a las necesidades y especificaciones del cliente."
+		}
+	},
+	"splitter": {
+		"title": "¿SE OFRECE ASESORÍA GRATUITA?",
+		"description": "Sí, ofrezco asesoría sobre los principales fundamentos que debe conocer el cliente antes de contratar un servicio y las dudas que le puedan surgir. Para mayor información sobre un determinado tema si se establecería un costo para una asesoría mucho más completa sobre el tema en específico que se quiera tratar."
+	},
+	"portfolio": {
+		"subtitle": "PORTAFOLIO",
+		"subtitle_description": "Estos son algunos de los trabajos que he realizado",
+		"secondary_subtitles": {
+			"app_web": "APLICACIONES WEB",
+			"websites": "SITIOS WEB"
+		},
+		"works": {
+			"panel_administrativo_academias": {
+				"title": "Panel Administrativo para Academias",
+				"proprietor": "Juan José Calvo.",
+				"extract": "Plataforma administrativa para el manejo y control de academias de estudio con una o más sedes y periodos, en el cual puedes llevar el registro de cursos, estudiantes, personal, control de pagos, facturaciones, estadísticas, entre otras cosas.",
+				"description": "Plataforma administrativa para el manejo y control de academias de estudio con una o más sedes y periodos, en el cual puedes llevar el registro de cursos y los distintos grupos de un mismo curso, el registro de estudiantes, opción de inscripción y de generar contrato de estudio, permite agregar personal en una variedad de cargos, posee restricciones de acceso dependiendo de cada cargo, permite la creación de boletines para los alumnos, control de asistencia para los distintos grupos de clases, control de biblioteca para los libros prestados a alumnos y profesores, control de pagos de personal, facturaciones de abonos de los estudiantes, control de pagos fijos y extras, resumen estadístico, panel de configuración, posee opción de búsqueda en cada una de las secciones, posee su propio asistente de configuración inicial, posee una sección de mensajería interna, entre otras cosas."
+			},
+			"coepamm": {
+				"title": "Coepamm",
+				"proprietor": "Empresa Coepamm.",
+				"extract": "Plataforma administrativa para academia marítima, cuya función principal es la de proveer información sobre los cursos que ofrecen, permitir la inscripción de estudiantes, control por parte de los docentes para calificarlos, entre otras funciones imprescindibles que posee.",
+				"description": "Plataforma administrativa para academia marítima, cuya función principal es la de proveer información sobre los cursos que ofrecen, permite realizar el registro de estudiantes, la creación de cursos, pensum, asignación de estudiantes y del profesor a  un determinado curso y sección, permite registrar al personal administrativo y de profesorado, permite la inscripción de estudiantes, posee un control por parte de los docentes para calificar a los estudiantes, permite la creación de los certificados de los cursos para cada alumno, permite manejar los registros de varios periodos y sedes, posee su panel de configuración, permite realizar búsquedas de registros en cada una de las secciones, entre otras cosas."
+			},
+			"magi": {
+				"title": "MAGI (Modulo Administrativo De Gestión De Interconexiones)",
+				"proprietor": "Universidad Privada Dr. Rafael Belloso Chacín.",
+				"extract": "Plataforma administrativa de control de un grupo determinado de computadoras de una o varias áreas, las cuales pueden ser operadas de manera sencilla de forma remota y hacer uso de una serie de opciones útiles para el entorno de trabajo.",
+				"description": "Plataforma administrativa de control de un grupo determinado de computadoras de una o varias áreas, las cuales pueden ser operadas de manera sencilla de forma remota y hacer uso de una serie de opciones útiles para el entorno de trabajo, algunas de esas opciones son las de permitir el encendido, apagado o reinicio de una o varias PCS o de un área completa, posee un modo en el que establece a un área de un grupo de PCS en modo reservación. Este modo activa una pantalla de bloqueo en las PCS de esa área con el nombre del equipo, para luego proceder a asignar a un estudiante a una PC disponible, la cual será reservada para un estudiante y podrá usar su cedula de identidad para desbloquear la PC, la cual le otorgará un tiempo determinado de uso y una vez finalizado el tiempo la PC se bloqueará y será asignada a otro estudiante en espera para el uso de una PC para investigar, posee la opción de enviar mensajes predeterminados o personalizados a una o varias PCS para informar a los estudiantes de avisos importantes, entre otras cosas."
+			},
+			"meson_rebeca": {
+				"title": "Mesón Rebeca",
+				"proprietor": "Dueños del Restaurante Mesón Rebeca.",
+				"extract": "Sitio web de servicio de Restaurante y asador, en donde encontrarás una gran variedad de productos de temporada armonizados con el sabor de la cocina más tradicional y artesanal ubicado en la Carlota, España.",
+				"description": "Sitio web de servicio de Restaurante y asador, en donde encontrarás una gran variedad de productos de temporada armonizados con el sabor de la cocina más tradicional y artesanal ubicado en la Carlota, España."
+			},
+			"iloveenglish": {
+				"title": "I Love English",
+				"proprietor": "Juan José Calvo.",
+				"extract": "Sitio web de una academia de inglés, en la cual provee información sobre su academia, sobre los cursos que imparten, permite realizar un test de inglés automatizado y facilita el proceso de matriculación para un curso y horario en específico.",
+				"description": "Sitio web de una academia de inglés, en la cual provee información sobre su academia, sobre los cursos que imparten, permite realizar un test de inglés automatizado y facilita el proceso de matriculación para un curso y horario en específico."
+			},
+			"webprofesionalonline": {
+				"title": "Web Profesional",
+				"proprietor": "Juan José Calvo.",
+				"extract": "Sitio web dedicado a la venta de servicios de desarrollo web, en donde se ofrece diseño y creación de sitios web de distintas escalas ajustados a las necesidades y preferencias de los clientes.",
+				"description": "Sitio web dedicado a la venta de servicios de desarrollo web, en donde se ofrece diseño y creación de sitios web de distintas escalas ajustados a las necesidades y preferencias de los clientes."
+			},
+			"donuts": {
+				"title": "Donuts SA",
+				"proprietor": "De mi propiedad.",
+				"extract": "Sitio web de mi propiedad enfocado como diseño de ejemplo para una empresa que necesite patrocinar los productos de su negocio de venta de postres o productos de repostería, con animaciones 3D y un diseño colorido y alegre.",
+				"description": "Sitio web de mi propiedad enfocado como diseño de ejemplo para una empresa que necesite patrocinar los productos de su negocio de venta de postres o productos de repostería, con animaciones 3D y un diseño colorido y alegre."
+			},
+			"one_page": {
+				"title": "One Page",
+				"proprietor": "De mi propiedad.",
+				"extract": "Sitio web de mi propiedad enfocado como diseño de ejemplo para una empresa que necesite tener un espacio o lugar en el cual pueda mostrar información sobre su empresa o negocio, ofrecer sus servicios y tener los datos de contacto para clientes potenciales.",
+				"description": "Sitio web de mi propiedad enfocado como diseño de ejemplo para una empresa que necesite tener un espacio o lugar en el cual pueda mostrar información sobre su empresa o negocio, ofrecer sus servicios y tener los datos de contacto para clientes potenciales."
+			},
+			"ecoambiente": {
+				"title": "EcoAmbiente",
+				"proprietor": "De mi propiedad.",
+				"extract": "Sitio web de mi propiedad enfocado como diseño de ejemplo para una empresa que necesite tener un espacio o lugar en el cual pueda mostrar información sobre su empresa o negocio, ofrecer sus servicios y tener los datos de contacto para clientes potenciales.",
+				"description": "Sitio web de mi propiedad enfocado como diseño de ejemplo para una empresa que necesite tener un espacio o lugar en el cual pueda mostrar información sobre su empresa o negocio, ofrecer sus servicios y tener los datos de contacto para clientes potenciales."
+			}
+		},
+		"work_view": {
+			"proprietor": "Propietario",
+			"developed": "Desarrollado con",
+			"link": "Enlace de sitio web oficial",
+			"description": "Descripción",
+			"screenshot": "Captura de pantalla"
+		}
+	},
+	"contact": {
+		"subtitle": "CONTACTO",
+		"subtitle_description": "Ponte en contacto usando la vía que mejor se ajuste a ti",
+		"form_title": "Envíame un mensaje.",
+		"form_fields": {
+			"name": "Nombre",
+			"mail": "Correo",
+			"message": "Mensaje"
+		},
+		"form_fields_error": {
+			"empty": "Rellene este campo",
+			"mail": "Ingrese una dirección de correo valida"
+		},
+		"form_btn_send": "Enviar mensaje",
+		"copyright": "Todos los derechos Reservados"
+	}
+}

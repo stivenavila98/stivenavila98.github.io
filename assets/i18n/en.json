@@ -1,0 +1,126 @@
+{
+	"header": {
+		"work_position": "Web Developer",
+		"about_me": "Hi, I'm a programmer specialized in Web Development. In the creation and maintenance of websites and web applications of small, medium and large scale, I mainly work as a Front-End developer although I also have the necessary fundamentals to carry out the development of a project from start to finish using good programming practices, leaving a readable and scalable code.",
+		"skills_title": "Skills"
+	},
+	"services": {
+		"services_title": "SERVICES",
+		"services_description": "These are some of the services I can offer you",
+		"service_1": {
+			"title": "Web Development",
+			"description": "Creation and edition of web sites and web applications."
+		},
+		"service_2": {
+			"title": "Optimization",
+			"description": "Load time reduction (WPO), web positioning (SEO) and code optimization."
+		},
+		"service_3": {
+			"title": "Responsive Design",
+			"description": "Design adaptable to any device."
+		},
+		"service_4": {
+			"title": "Maintenance",
+			"description": "Updating of libraries, plugins, modules, backups and replacement of obsolete code."
+		},
+		"service_5": {
+			"title": "Security",
+			"description": "Installation of SSL certificates (HTTPS), data validation and protection of sensitive data through the use of tokens."
+		},
+		"service_6": {
+			"title": "Customization",
+			"description": "Designs adapted to the customer's needs and specifications."
+		}
+	},
+	"splitter": {
+		"title": "IS FREE CONSULTING OFFERED?",
+		"description": "Yes, I offer advice on the main fundamentals that the client should know before hiring a service and the doubts that may arise. For more information on a specific topic, a cost would be established for a much more complete advice on the specific topic to be addressed."
+	},
+	"portfolio": {
+		"subtitle": "PORTFOLIO",
+		"subtitle_description": "These are some of the works I have done",
+		"secondary_subtitles": {
+			"app_web": "WEB APPLICATIONS",
+			"websites": "WEB SITES"
+		},
+		"works": {
+			"panel_administrativo_academias": {
+				"title": "Administrative Panel for Academies",
+				"proprietor": "Juan José Calvo.",
+				"extract": "Administrative platform for the management and control of study academies with one or more locations and periods, in which you can keep track of courses, students, staff, payment control, billing, statistics, among other things.",
+				"description": "Administrative platform for the management and control of study academies with one or more locations and periods, in which you can keep track of courses and the different groups of the same course, student registration, enrollment option and generate study contract, allows you to add staff in a variety of positions, has access restrictions depending on each position, allows the creation of newsletters for students, attendance control for the different groups of classes, library control for books lent to students and teachers, staff payment control, student credit invoices, control of fixed and extra payments, statistical summary, configuration panel, search option in each of the sections, initial configuration wizard, internal messaging section, among other things."
+			},
+			"coepamm": {
+				"title": "Coepamm",
+				"proprietor": "Coepamm Company.",
+				"extract": "Administrative platform for maritime academy, whose main function is to provide information about the courses offered, allow student enrollment, control by teachers to qualify them, among other essential functions it has.",
+				"description": "Administrative platform for maritime academy, whose main function is to provide information about the courses offered, allows the registration of students, the creation of courses, curriculum, assignment of students and teacher to a particular course and section, allows the registration of administrative staff and faculty, allows the enrollment of students, has a control by teachers to qualify students, allows the creation of certificates of courses for each student, allows to manage records of various periods and locations, has its configuration panel, allows searches for records in each of the sections, among other things."
+			},
+			"magi": {
+				"title": "MAGI (Administrative Module for Interconnections Management)",
+				"proprietor": "Dr. Rafael Belloso Chacín Private University.",
+				"extract": "Administrative platform to control a determined group of computers in one or several areas, which can be easily operated remotely and make use of a series of useful options for the work environment.",
+				"description": "Administrative platform to control a specific group of computers in one or several areas, which can be easily operated remotely and make use of a number of useful options for the work environment, some of these options are to allow the power on, off or reboot of one or more PCS or a whole area, has a mode that sets an area of a group of PCS in reservation mode. This mode activates a lock screen in the PCS of that area with the name of the equipment, to then proceed to assign a student to an available PC, which will be reserved for a student and can use his ID to unlock the PC, which will grant a certain time of use and once the time is over the PC will be locked and will be assigned to another student waiting for the use of a PC to investigate, has the option to send default or custom messages to one or more PCS to inform students of important notices, among other things."
+			},
+			"meson_rebeca": {
+				"title": "Mesón Rebeca",
+				"proprietor": "Owners of Mesón Rebeca Restaurant.",
+				"extract": "Restaurant and grill service website, where you will find a wide variety of seasonal products harmonized with the taste of the most traditional and artisanal cuisine located in La Carlota, Spain.",
+				"description": "Restaurant and grill service website, where you will find a wide variety of seasonal products harmonized with the taste of the most traditional and artisanal cuisine located in La Carlota, Spain."
+			},
+			"iloveenglish": {
+				"title": "I Love English",
+				"proprietor": "Juan José Calvo.",
+				"extract": "Website of an English language academy, which provides information about their academy, about the courses they offer, allows you to take an automated English test and facilitates the registration process for a specific course and schedule.",
+				"description": "Website of an English language academy, which provides information about their academy, about the courses they offer, allows you to take an automated English test and facilitates the registration process for a specific course and schedule."
+			},
+			"webprofesionalonline": {
+				"title": "Web Profesional",
+				"proprietor": "Juan José Calvo.",
+				"extract": "Website dedicated to the sale of web development services, where we offer design and creation of websites of different scales adjusted to the needs and preferences of customers.",
+				"description": "Website dedicated to the sale of web development services, where we offer design and creation of websites of different scales adjusted to the needs and preferences of customers."
+			},
+			"donuts": {
+				"title": "Donuts SA",
+				"proprietor": "My property.",
+				"extract": "Website of my property focused as an example design for a company that needs to sponsor the products of your business selling desserts or bakery products, with 3D animations and a colorful and cheerful design.",
+				"description": "Website of my property focused as an example design for a company that needs to sponsor the products of your business selling desserts or bakery products, with 3D animations and a colorful and cheerful design."
+			},
+			"one_page": {
+				"title": "One Page",
+				"proprietor": "My property.",
+				"extract": "Website of my property focused as an example design for a company that needs to have a space or place where you can display information about your company or business, offer your services and have contact information for potential customers.",
+				"description": "Website of my property focused as an example design for a company that needs to have a space or place where you can display information about your company or business, offer your services and have contact information for potential customers."
+			},
+			"ecoambiente": {
+				"title": "EcoAmbiente",
+				"proprietor": "My property.",
+				"extract": "Website of my property focused as an example design for a company that needs to have a space or place where you can display information about your company or business, offer your services and have contact information for potential customers.",
+				"description": "Website of my property focused as an example design for a company that needs to have a space or place where you can display information about your company or business, offer your services and have contact information for potential customers."
+			}
+		},
+		"work_view": {
+			"proprietor": "Proprietor",
+			"developed": "Developed with",
+			"link": "Official website link",
+			"description": "Description",
+			"screenshot": "Screenshot"
+		}
+	},
+	"contact": {
+		"subtitle": "CONTACT",
+		"subtitle_description": "Get in touch using the contact method that best suits you.",
+		"form_title": "Send me a message.",
+		"form_fields": {
+			"name": "Name",
+			"mail": "Mail",
+			"message": "Message"
+		},
+		"form_fields_error": {
+			"empty": "Fill in this field",
+			"mail": "Enter a valid email address"
+		},
+		"form_btn_send": "Send message",
+		"copyright": "All rights reserved"
+	}
+}
